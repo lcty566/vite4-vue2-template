@@ -1,0 +1,1 @@
+import{n as _}from"./index.js";const o={data(){return{}},mounted(){},methods:{}};var r=function(){var e=this,n=e._self._c;return n("div",[e._v(" 6666666666666666 ")])},t=[],a=_(o,r,t,!1,null,"ca7f0fa2",null,null);const c=a.exports;export{c as default};
