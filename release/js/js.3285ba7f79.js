@@ -1,0 +1,1 @@
+import{n as o}from"./index.js";const t={name:"Vue2HomeView",data(){return{}},mounted(){},methods:{aa(){console.log(111)}}};var a=function(){var e=this,n=e._self._c;return n("div",e._l(20,function(c,_){return n("div",{key:_},[e._v(" aaaa ")])}),0)},r=[],s=o(t,a,r,!1,null,"bf26523e",null,null);const m=s.exports;export{m as default};

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite --mode dev",
+    "watch": "vite build --watch --mode dev",
     "build": "vite build --mode pro",
     "preview": "vite preview"
   },

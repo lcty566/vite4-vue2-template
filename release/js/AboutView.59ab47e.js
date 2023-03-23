@@ -1,1 +1,0 @@
-import o from"./HelloWorld.5dcbf34.js";import{n as t}from"./index.js";const _={components:{HelloWorld:o},data(){return{}},mounted(){},methods:{}};var r=function(){var e=this,n=e._self._c;return n("div",[e._v(" 22222 "),n("HelloWorld")],1)},l=[],s=t(_,r,l,!1,null,"9a673ef3",null,null);const m=s.exports;export{m as default};

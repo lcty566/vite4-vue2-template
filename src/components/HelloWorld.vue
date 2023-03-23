@@ -13,7 +13,7 @@ export default {
   },
 
   mounted () {
-
+    const a = 0
   },
 
   methods: {

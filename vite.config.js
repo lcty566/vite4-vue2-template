@@ -27,7 +27,7 @@ export default ({ mode }) => {
       rollupOptions: {
         output: {
           entryFileNames: 'js/[name].js',
-          chunkFileNames: 'js/[name].[hash:7].js',
+          chunkFileNames: 'js/js.[hash:10].js',
           assetFileNames: 'css/[name].[ext]'
         }
       }

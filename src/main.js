@@ -2,9 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import VConsole from 'vconsole'
-const vconsole = new VConsole()
-
+import { init } from './utils/init.js'
+console.log(111)
+init()
+console.log(222)
 new Vue({
   router,
   store,

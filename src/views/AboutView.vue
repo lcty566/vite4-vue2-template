@@ -1,29 +1,28 @@
 <template>
   <div>
+    <div class="btn" @click="btnEvent1">btn1</div>
+    <div class="btn" @click="btnEvent2">btn2</div>
 
-    22222
-    <HelloWorld/>
   </div>
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
 export default {
   components: {
-    HelloWorld
   },
   data () {
     return {
 
     }
   },
-
-  mounted () {
-
-  },
-
   methods: {
-
+    btnEvent1() {
+      // this.$ToastWithLoading().hide()
+      // this.$ToastWithText('1111')
+    },
+    btnEvent2() {
+      // this.$ToastWithLoading().show()
+    }
   }
 }
 </script>
