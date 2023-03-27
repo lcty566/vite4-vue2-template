@@ -13,7 +13,6 @@ const commonApis = {
 }
 
 export const init = () => {
-  console.log(plugins)
   // 注册全局过滤器
   Object.keys(filters).forEach(key => {
     Vue.filter(key, filters[key])
