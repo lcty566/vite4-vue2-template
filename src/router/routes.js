@@ -22,6 +22,30 @@ const routes = [
     meta: {
       title: 'chatGPT'
     }
+  },
+  {
+    path: '/elTable',
+    name: 'elTable',
+    component: () => import('@/views/ELTable.vue'),
+    meta: {
+      title: 'elTable'
+    }
+  },
+  {
+    path: '/VXETable',
+    name: 'VXETable',
+    component: () => import('@/views/VXETable.vue'),
+    meta: {
+      title: 'VXETable'
+    }
+  },
+  {
+    path: '/echarts',
+    name: 'Echarts',
+    component: () => import('@/views/EchartsDemo.vue'),
+    meta: {
+      title: 'echarts'
+    }
   }
 ]
 

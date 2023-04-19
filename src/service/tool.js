@@ -9,7 +9,8 @@ const service = axios.create({
   baseURL: GET_URL(),
   timeout: 60000,
   headers: {
-    Authorization: 'Bearer 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',
+    // Authorization: 'Bearer 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',
+    Authorization: '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',
     'Content-Type': 'application/json'
   }
 })
